@@ -1,0 +1,60 @@
+.app-block, .app-block1, .app-block2{
+    border: 2px solid black;
+    margin: 20px;
+    background-color: #999999;
+    display: inline-block;
+}
+.app-descr{
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+    float: right;
+    overflow: hidden;
+    padding: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #d59897;
+}
+.app-descr1{
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+    float: right;
+    overflow: hidden;
+    padding: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #c14543;
+}
+.app-descr2{
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+    float: right;
+    overflow: hidden;
+    padding: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #e5d198;
+}
+.app-text{
+    clear: right;
+    padding: 10px;
+}
+.app-top{
+    text-align: center;
+}
+
+@media screen and (min-width: 820px) {
+    .app-block, .app-block1{
+        max-width: 44%;
+    }
+    .app-block2{
+        max-width: auto;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .app-block, .app-block1, .app-block2{
+        max-width: 30%;
+    }
+}
